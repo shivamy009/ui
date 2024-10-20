@@ -12,7 +12,7 @@ const userRoute=require('./router/userRoute')
 database()
 
 app.use('/api/v1/auth',userRoute)
-app.use('/ty',(req,res)=>{
+app.use('/',(req,res)=>{
     res.send("Hello")
 })
  
